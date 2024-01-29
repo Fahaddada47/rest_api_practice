@@ -14,8 +14,7 @@ class _HomePageState extends State<HomePage> {
   List<PostsModel> postList = [];
 
   Future<List<PostsModel>> getPostApi() async {
-    final response =
-        await http.get(Uri.parse('https://jsonplaceholder.typicode.com/posts'));
+    final response = await http.get(Uri.parse('https://jsonplaceholder.typicode.com/posts'));
     var data = jsonDecode(response.body.toString());
     if (response.statusCode == 200) {
       for (Map i in data) {
