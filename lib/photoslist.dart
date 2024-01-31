@@ -47,7 +47,7 @@ class _PhotosListState extends State<PhotosList> {
                       itemCount: photosList.length,
                       itemBuilder: (context, index) {
                         return ListTile(
-                          title: Text(snapshot.data![index].title.toString()),
+                          title: Text(snapshot.data! [index].title.toString()),
                         );
                       });
                 }),

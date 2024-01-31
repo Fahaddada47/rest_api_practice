@@ -5,6 +5,7 @@ import 'package:pracrestapi/homepage.dart';
 import 'package:http/http.dart' as http;
 import 'package:pracrestapi/photoslist.dart';
 import 'package:pracrestapi/photospage.dart';
+import 'package:pracrestapi/userpage.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const PhotosList(),
+      home: const UserPage(),
     );
   }
 }
