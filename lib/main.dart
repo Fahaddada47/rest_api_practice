@@ -3,7 +3,8 @@ import 'package:pracrestapi/albumpage.dart';
 import 'package:pracrestapi/comment_page.dart';
 import 'package:pracrestapi/homepage.dart';
 import 'package:http/http.dart' as http;
-import 'package:pracrestapi/mycustomapipage.dart';
+import 'package:pracrestapi/model/myapipage.dart';
+import 'package:pracrestapi/model/wishlistpage.dart';
 import 'package:pracrestapi/photoslist.dart';
 import 'package:pracrestapi/photospage.dart';
 import 'package:pracrestapi/userpage.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyCustomApiPage(),
+      home: const MyApiPage(),
     );
   }
 }

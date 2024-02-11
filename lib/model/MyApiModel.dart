@@ -1,362 +1,528 @@
-/// Data : {"Education":{"schoolID":101,"waiverAmount":55000},"HigherEducation":{"universityID":102,"tuitionFee":60000},"Transportation":{"Photos":[{"carPicture":"\"https://example.com/car1\"","driverPicture":"\"https://example.com/driver1\""}],"PhotosAlternate":[{"carPicture":"\"https://example.com/car2\"","driverPicture":"\"https://example.com/driver2\""}],"PhotosAlternate2":[{"carPicture":"\"https://example.com/car3\"","driverPicture":"\"https://example.com/driver3\""}],"DriveID":103,"TravelDistance":"30 miles"},"UserID":1,"UserFullName":"\"Jane Doe\"","UserEmailAddress":"\"jane.doe@example.com\"","UserHomeAddress":"\"789 Maple St, City\""}
+/// success : true
+/// message : "All data"
+/// data : [{"_id":"asdf231asdfadsfsad2438rjsd","on_sale":true,"sale_percent":20,"sold":20,"slider_new":false,"slider_recent":false,"slider_sold":false,"date":"2023-01-05T07: 56: 19.219Z","title":"TMTS121-50199","categories":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"clothes","image":"https: //images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},"subcat":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"Shirts"},"shop":{"_id":"asdf231asdfadsfsad2438rjsd","is_active":false,"created_At":"2023-01-05T07: 56: 19.219Z","name":"Shirts","description":"This is enderobe brand","shopemail":"adenreobe@gmail.com","shopaddress":"Islamabad F8","shopcity":"Islamabad","userid":"23asdfasfdsfd","image":"https://images.pexels.com/photos/5531004/pexels-photo-5531004.jpeg?auto=compress&cs=tinysrgb&w=1200"},"price":"2500","sale_title":"Winter Sale","sale_price":"2300","description":"22% off all the sales ","color":"#FF6347,#CD5C5C","size":"S,M,L,XL,XXL","in_wishlist":true,"images":[{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=1200"}]},{"_id":"asdf231asdfadsfsad2438rjsd","on_sale":true,"sale_percent":20,"sold":20,"slider_new":false,"slider_recent":false,"slider_sold":false,"date":"2023-01-05T07: 56: 19.219Z","title":"TMTS121-50199","categories":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"clothes","image":"https: //images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},"subcat":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"Shirts"},"shop":{"_id":"asdf231asdfadsfsad2438rjsd","is_active":false,"created_At":"2023-01-05T07: 56: 19.219Z","name":"Shirts","description":"This is enderobe brand","shopemail":"adenreobe@gmail.com","shopaddress":"Islamabad F8","shopcity":"Islamabad","userid":"23asdfasfdsfd","image":"https://images.pexels.com/photos/5531004/pexels-photo-5531004.jpeg?auto=compress&cs=tinysrgb&w=1200"},"price":"2500","sale_title":"Winter Sale","sale_price":"2300","description":"22% off all the sales ","color":"#FF6347,#CD5C5C","size":"S,M,L,XL,XXL","in_wishlist":true,"images":[{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=1200"}]},{"_id":"asdf231asdfadsfsad2438rjsd","on_sale":true,"sale_percent":20,"sold":20,"slider_new":false,"slider_recent":false,"slider_sold":false,"date":"2023-01-05T07: 56: 19.219Z","title":"TMTS121-50199","categories":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"clothes","image":"https: //images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},"subcat":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"Shirts"},"shop":{"_id":"asdf231asdfadsfsad2438rjsd","is_active":false,"created_At":"2023-01-05T07: 56: 19.219Z","name":"Shirts","description":"This is enderobe brand","shopemail":"adenreobe@gmail.com","shopaddress":"Islamabad F8","shopcity":"Islamabad","userid":"23asdfasfdsfd","image":"https://images.pexels.com/photos/5531004/pexels-photo-5531004.jpeg?auto=compress&cs=tinysrgb&w=1200"},"price":"2500","sale_title":"Winter Sale","sale_price":"2300","description":"22% off all the sales ","color":"#FF6347,#CD5C5C","size":"S,M,L,XL,XXL","in_wishlist":true,"images":[{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=1200"}]}]
 
 class MyApiModel {
   MyApiModel({
-      Data? data,}){
+      bool? success, 
+      String? message, 
+      List<Data>? data,}){
+    _success = success;
+    _message = message;
     _data = data;
 }
 
   MyApiModel.fromJson(dynamic json) {
-    _data = json['Data'] != null ? Data.fromJson(json['Data']) : null;
+    _success = json['success'];
+    _message = json['message'];
+    if (json['data'] != null) {
+      _data = [];
+      json['data'].forEach((v) {
+        _data?.add(Data.fromJson(v));
+      });
+    }
   }
-  Data? _data;
-MyApiModel copyWith({  Data? data,
-}) => MyApiModel(  data: data ?? _data,
+  bool? _success;
+  String? _message;
+  List<Data>? _data;
+MyApiModel copyWith({  bool? success,
+  String? message,
+  List<Data>? data,
+}) => MyApiModel(  success: success ?? _success,
+  message: message ?? _message,
+  data: data ?? _data,
 );
-  Data? get data => _data;
+  bool? get success => _success;
+  String? get message => _message;
+  List<Data>? get data => _data;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
+    map['success'] = _success;
+    map['message'] = _message;
     if (_data != null) {
-      map['Data'] = _data?.toJson();
+      map['data'] = _data?.map((v) => v.toJson()).toList();
     }
     return map;
   }
 
 }
 
-/// Education : {"schoolID":101,"waiverAmount":55000}
-/// HigherEducation : {"universityID":102,"tuitionFee":60000}
-/// Transportation : {"Photos":[{"carPicture":"\"https://example.com/car1\"","driverPicture":"\"https://example.com/driver1\""}],"PhotosAlternate":[{"carPicture":"\"https://example.com/car2\"","driverPicture":"\"https://example.com/driver2\""}],"PhotosAlternate2":[{"carPicture":"\"https://example.com/car3\"","driverPicture":"\"https://example.com/driver3\""}],"DriveID":103,"TravelDistance":"30 miles"}
-/// UserID : 1
-/// UserFullName : "\"Jane Doe\""
-/// UserEmailAddress : "\"jane.doe@example.com\""
-/// UserHomeAddress : "\"789 Maple St, City\""
+/// _id : "asdf231asdfadsfsad2438rjsd"
+/// on_sale : true
+/// sale_percent : 20
+/// sold : 20
+/// slider_new : false
+/// slider_recent : false
+/// slider_sold : false
+/// date : "2023-01-05T07: 56: 19.219Z"
+/// title : "TMTS121-50199"
+/// categories : {"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"clothes","image":"https: //images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"}
+/// subcat : {"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"Shirts"}
+/// shop : {"_id":"asdf231asdfadsfsad2438rjsd","is_active":false,"created_At":"2023-01-05T07: 56: 19.219Z","name":"Shirts","description":"This is enderobe brand","shopemail":"adenreobe@gmail.com","shopaddress":"Islamabad F8","shopcity":"Islamabad","userid":"23asdfasfdsfd","image":"https://images.pexels.com/photos/5531004/pexels-photo-5531004.jpeg?auto=compress&cs=tinysrgb&w=1200"}
+/// price : "2500"
+/// sale_title : "Winter Sale"
+/// sale_price : "2300"
+/// description : "22% off all the sales "
+/// color : "#FF6347,#CD5C5C"
+/// size : "S,M,L,XL,XXL"
+/// in_wishlist : true
+/// images : [{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=1200"}]
 
 class Data {
   Data({
-      Education? education, 
-      HigherEducation? higherEducation, 
-      Transportation? transportation, 
-      num? userID, 
-      String? userFullName, 
-      String? userEmailAddress, 
-      String? userHomeAddress,}){
-    _education = education;
-    _higherEducation = higherEducation;
-    _transportation = transportation;
-    _userID = userID;
-    _userFullName = userFullName;
-    _userEmailAddress = userEmailAddress;
-    _userHomeAddress = userHomeAddress;
+      String? id, 
+      bool? onSale, 
+      num? salePercent, 
+      num? sold, 
+      bool? sliderNew, 
+      bool? sliderRecent, 
+      bool? sliderSold, 
+      String? date, 
+      String? title, 
+      Categories? categories, 
+      Subcat? subcat, 
+      Shop? shop, 
+      String? price, 
+      String? saleTitle, 
+      String? salePrice, 
+      String? description, 
+      String? color, 
+      String? size, 
+      bool? inWishlist, 
+      List<Images>? images,}){
+    _id = id;
+    _onSale = onSale;
+    _salePercent = salePercent;
+    _sold = sold;
+    _sliderNew = sliderNew;
+    _sliderRecent = sliderRecent;
+    _sliderSold = sliderSold;
+    _date = date;
+    _title = title;
+    _categories = categories;
+    _subcat = subcat;
+    _shop = shop;
+    _price = price;
+    _saleTitle = saleTitle;
+    _salePrice = salePrice;
+    _description = description;
+    _color = color;
+    _size = size;
+    _inWishlist = inWishlist;
+    _images = images;
 }
 
   Data.fromJson(dynamic json) {
-    _education = json['Education'] != null ? Education.fromJson(json['Education']) : null;
-    _higherEducation = json['HigherEducation'] != null ? HigherEducation.fromJson(json['HigherEducation']) : null;
-    _transportation = json['Transportation'] != null ? Transportation.fromJson(json['Transportation']) : null;
-    _userID = json['UserID'];
-    _userFullName = json['UserFullName'];
-    _userEmailAddress = json['UserEmailAddress'];
-    _userHomeAddress = json['UserHomeAddress'];
-  }
-  Education? _education;
-  HigherEducation? _higherEducation;
-  Transportation? _transportation;
-  num? _userID;
-  String? _userFullName;
-  String? _userEmailAddress;
-  String? _userHomeAddress;
-Data copyWith({  Education? education,
-  HigherEducation? higherEducation,
-  Transportation? transportation,
-  num? userID,
-  String? userFullName,
-  String? userEmailAddress,
-  String? userHomeAddress,
-}) => Data(  education: education ?? _education,
-  higherEducation: higherEducation ?? _higherEducation,
-  transportation: transportation ?? _transportation,
-  userID: userID ?? _userID,
-  userFullName: userFullName ?? _userFullName,
-  userEmailAddress: userEmailAddress ?? _userEmailAddress,
-  userHomeAddress: userHomeAddress ?? _userHomeAddress,
-);
-  Education? get education => _education;
-  HigherEducation? get higherEducation => _higherEducation;
-  Transportation? get transportation => _transportation;
-  num? get userID => _userID;
-  String? get userFullName => _userFullName;
-  String? get userEmailAddress => _userEmailAddress;
-  String? get userHomeAddress => _userHomeAddress;
-
-  Map<String, dynamic> toJson() {
-    final map = <String, dynamic>{};
-    if (_education != null) {
-      map['Education'] = _education?.toJson();
-    }
-    if (_higherEducation != null) {
-      map['HigherEducation'] = _higherEducation?.toJson();
-    }
-    if (_transportation != null) {
-      map['Transportation'] = _transportation?.toJson();
-    }
-    map['UserID'] = _userID;
-    map['UserFullName'] = _userFullName;
-    map['UserEmailAddress'] = _userEmailAddress;
-    map['UserHomeAddress'] = _userHomeAddress;
-    return map;
-  }
-
-}
-
-/// Photos : [{"carPicture":"\"https://example.com/car1\"","driverPicture":"\"https://example.com/driver1\""}]
-/// PhotosAlternate : [{"carPicture":"\"https://example.com/car2\"","driverPicture":"\"https://example.com/driver2\""}]
-/// PhotosAlternate2 : [{"carPicture":"\"https://example.com/car3\"","driverPicture":"\"https://example.com/driver3\""}]
-/// DriveID : 103
-/// TravelDistance : "30 miles"
-
-class Transportation {
-  Transportation({
-      List<Photos>? photos, 
-      List<PhotosAlternate>? photosAlternate, 
-      List<PhotosAlternate2>? photosAlternate2, 
-      num? driveID, 
-      String? travelDistance,}){
-    _photos = photos;
-    _photosAlternate = photosAlternate;
-    _photosAlternate2 = photosAlternate2;
-    _driveID = driveID;
-    _travelDistance = travelDistance;
-}
-
-  Transportation.fromJson(dynamic json) {
-    if (json['Photos'] != null) {
-      _photos = [];
-      json['Photos'].forEach((v) {
-        _photos?.add(Photos.fromJson(v));
+    _id = json['_id'];
+    _onSale = json['on_sale'];
+    _salePercent = json['sale_percent'];
+    _sold = json['sold'];
+    _sliderNew = json['slider_new'];
+    _sliderRecent = json['slider_recent'];
+    _sliderSold = json['slider_sold'];
+    _date = json['date'];
+    _title = json['title'];
+    _categories = json['categories'] != null ? Categories.fromJson(json['categories']) : null;
+    _subcat = json['subcat'] != null ? Subcat.fromJson(json['subcat']) : null;
+    _shop = json['shop'] != null ? Shop.fromJson(json['shop']) : null;
+    _price = json['price'];
+    _saleTitle = json['sale_title'];
+    _salePrice = json['sale_price'];
+    _description = json['description'];
+    _color = json['color'];
+    _size = json['size'];
+    _inWishlist = json['in_wishlist'];
+    if (json['images'] != null) {
+      _images = [];
+      json['images'].forEach((v) {
+        _images?.add(Images.fromJson(v));
       });
     }
-    if (json['PhotosAlternate'] != null) {
-      _photosAlternate = [];
-      json['PhotosAlternate'].forEach((v) {
-        _photosAlternate?.add(PhotosAlternate.fromJson(v));
-      });
-    }
-    if (json['PhotosAlternate2'] != null) {
-      _photosAlternate2 = [];
-      json['PhotosAlternate2'].forEach((v) {
-        _photosAlternate2?.add(PhotosAlternate2.fromJson(v));
-      });
-    }
-    _driveID = json['DriveID'];
-    _travelDistance = json['TravelDistance'];
   }
-  List<Photos>? _photos;
-  List<PhotosAlternate>? _photosAlternate;
-  List<PhotosAlternate2>? _photosAlternate2;
-  num? _driveID;
-  String? _travelDistance;
-Transportation copyWith({  List<Photos>? photos,
-  List<PhotosAlternate>? photosAlternate,
-  List<PhotosAlternate2>? photosAlternate2,
-  num? driveID,
-  String? travelDistance,
-}) => Transportation(  photos: photos ?? _photos,
-  photosAlternate: photosAlternate ?? _photosAlternate,
-  photosAlternate2: photosAlternate2 ?? _photosAlternate2,
-  driveID: driveID ?? _driveID,
-  travelDistance: travelDistance ?? _travelDistance,
+  String? _id;
+  bool? _onSale;
+  num? _salePercent;
+  num? _sold;
+  bool? _sliderNew;
+  bool? _sliderRecent;
+  bool? _sliderSold;
+  String? _date;
+  String? _title;
+  Categories? _categories;
+  Subcat? _subcat;
+  Shop? _shop;
+  String? _price;
+  String? _saleTitle;
+  String? _salePrice;
+  String? _description;
+  String? _color;
+  String? _size;
+  bool? _inWishlist;
+  List<Images>? _images;
+Data copyWith({  String? id,
+  bool? onSale,
+  num? salePercent,
+  num? sold,
+  bool? sliderNew,
+  bool? sliderRecent,
+  bool? sliderSold,
+  String? date,
+  String? title,
+  Categories? categories,
+  Subcat? subcat,
+  Shop? shop,
+  String? price,
+  String? saleTitle,
+  String? salePrice,
+  String? description,
+  String? color,
+  String? size,
+  bool? inWishlist,
+  List<Images>? images,
+}) => Data(  id: id ?? _id,
+  onSale: onSale ?? _onSale,
+  salePercent: salePercent ?? _salePercent,
+  sold: sold ?? _sold,
+  sliderNew: sliderNew ?? _sliderNew,
+  sliderRecent: sliderRecent ?? _sliderRecent,
+  sliderSold: sliderSold ?? _sliderSold,
+  date: date ?? _date,
+  title: title ?? _title,
+  categories: categories ?? _categories,
+  subcat: subcat ?? _subcat,
+  shop: shop ?? _shop,
+  price: price ?? _price,
+  saleTitle: saleTitle ?? _saleTitle,
+  salePrice: salePrice ?? _salePrice,
+  description: description ?? _description,
+  color: color ?? _color,
+  size: size ?? _size,
+  inWishlist: inWishlist ?? _inWishlist,
+  images: images ?? _images,
 );
-  List<Photos>? get photos => _photos;
-  List<PhotosAlternate>? get photosAlternate => _photosAlternate;
-  List<PhotosAlternate2>? get photosAlternate2 => _photosAlternate2;
-  num? get driveID => _driveID;
-  String? get travelDistance => _travelDistance;
+  String? get id => _id;
+  bool? get onSale => _onSale;
+  num? get salePercent => _salePercent;
+  num? get sold => _sold;
+  bool? get sliderNew => _sliderNew;
+  bool? get sliderRecent => _sliderRecent;
+  bool? get sliderSold => _sliderSold;
+  String? get date => _date;
+  String? get title => _title;
+  Categories? get categories => _categories;
+  Subcat? get subcat => _subcat;
+  Shop? get shop => _shop;
+  String? get price => _price;
+  String? get saleTitle => _saleTitle;
+  String? get salePrice => _salePrice;
+  String? get description => _description;
+  String? get color => _color;
+  String? get size => _size;
+  bool? get inWishlist => _inWishlist;
+  List<Images>? get images => _images;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
-    if (_photos != null) {
-      map['Photos'] = _photos?.map((v) => v.toJson()).toList();
+    map['_id'] = _id;
+    map['on_sale'] = _onSale;
+    map['sale_percent'] = _salePercent;
+    map['sold'] = _sold;
+    map['slider_new'] = _sliderNew;
+    map['slider_recent'] = _sliderRecent;
+    map['slider_sold'] = _sliderSold;
+    map['date'] = _date;
+    map['title'] = _title;
+    if (_categories != null) {
+      map['categories'] = _categories?.toJson();
     }
-    if (_photosAlternate != null) {
-      map['PhotosAlternate'] = _photosAlternate?.map((v) => v.toJson()).toList();
+    if (_subcat != null) {
+      map['subcat'] = _subcat?.toJson();
     }
-    if (_photosAlternate2 != null) {
-      map['PhotosAlternate2'] = _photosAlternate2?.map((v) => v.toJson()).toList();
+    if (_shop != null) {
+      map['shop'] = _shop?.toJson();
     }
-    map['DriveID'] = _driveID;
-    map['TravelDistance'] = _travelDistance;
+    map['price'] = _price;
+    map['sale_title'] = _saleTitle;
+    map['sale_price'] = _salePrice;
+    map['description'] = _description;
+    map['color'] = _color;
+    map['size'] = _size;
+    map['in_wishlist'] = _inWishlist;
+    if (_images != null) {
+      map['images'] = _images?.map((v) => v.toJson()).toList();
+    }
     return map;
   }
 
 }
 
-/// carPicture : "\"https://example.com/car3\""
-/// driverPicture : "\"https://example.com/driver3\""
+/// id : "2342asdfasdf34"
+/// url : "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 
-class PhotosAlternate2 {
-  PhotosAlternate2({
-      String? carPicture, 
-      String? driverPicture,}){
-    _carPicture = carPicture;
-    _driverPicture = driverPicture;
+class Images {
+  Images({
+      String? id, 
+      String? url,}){
+    _id = id;
+    _url = url;
 }
 
-  PhotosAlternate2.fromJson(dynamic json) {
-    _carPicture = json['carPicture'];
-    _driverPicture = json['driverPicture'];
+  Images.fromJson(dynamic json) {
+    _id = json['id'];
+    _url = json['url'];
   }
-  String? _carPicture;
-  String? _driverPicture;
-PhotosAlternate2 copyWith({  String? carPicture,
-  String? driverPicture,
-}) => PhotosAlternate2(  carPicture: carPicture ?? _carPicture,
-  driverPicture: driverPicture ?? _driverPicture,
+  String? _id;
+  String? _url;
+Images copyWith({  String? id,
+  String? url,
+}) => Images(  id: id ?? _id,
+  url: url ?? _url,
 );
-  String? get carPicture => _carPicture;
-  String? get driverPicture => _driverPicture;
+  String? get id => _id;
+  String? get url => _url;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
-    map['carPicture'] = _carPicture;
-    map['driverPicture'] = _driverPicture;
+    map['id'] = _id;
+    map['url'] = _url;
     return map;
   }
 
 }
 
-/// carPicture : "\"https://example.com/car2\""
-/// driverPicture : "\"https://example.com/driver2\""
+/// _id : "asdf231asdfadsfsad2438rjsd"
+/// is_active : false
+/// created_At : "2023-01-05T07: 56: 19.219Z"
+/// name : "Shirts"
+/// description : "This is enderobe brand"
+/// shopemail : "adenreobe@gmail.com"
+/// shopaddress : "Islamabad F8"
+/// shopcity : "Islamabad"
+/// userid : "23asdfasfdsfd"
+/// image : "https://images.pexels.com/photos/5531004/pexels-photo-5531004.jpeg?auto=compress&cs=tinysrgb&w=1200"
 
-class PhotosAlternate {
-  PhotosAlternate({
-      String? carPicture, 
-      String? driverPicture,}){
-    _carPicture = carPicture;
-    _driverPicture = driverPicture;
+class Shop {
+  Shop({
+      String? id, 
+      bool? isActive, 
+      String? createdAt, 
+      String? name, 
+      String? description, 
+      String? shopemail, 
+      String? shopaddress, 
+      String? shopcity, 
+      String? userid, 
+      String? image,}){
+    _id = id;
+    _isActive = isActive;
+    _createdAt = createdAt;
+    _name = name;
+    _description = description;
+    _shopemail = shopemail;
+    _shopaddress = shopaddress;
+    _shopcity = shopcity;
+    _userid = userid;
+    _image = image;
 }
 
-  PhotosAlternate.fromJson(dynamic json) {
-    _carPicture = json['carPicture'];
-    _driverPicture = json['driverPicture'];
+  Shop.fromJson(dynamic json) {
+    _id = json['_id'];
+    _isActive = json['is_active'];
+    _createdAt = json['created_At'];
+    _name = json['name'];
+    _description = json['description'];
+    _shopemail = json['shopemail'];
+    _shopaddress = json['shopaddress'];
+    _shopcity = json['shopcity'];
+    _userid = json['userid'];
+    _image = json['image'];
   }
-  String? _carPicture;
-  String? _driverPicture;
-PhotosAlternate copyWith({  String? carPicture,
-  String? driverPicture,
-}) => PhotosAlternate(  carPicture: carPicture ?? _carPicture,
-  driverPicture: driverPicture ?? _driverPicture,
+  String? _id;
+  bool? _isActive;
+  String? _createdAt;
+  String? _name;
+  String? _description;
+  String? _shopemail;
+  String? _shopaddress;
+  String? _shopcity;
+  String? _userid;
+  String? _image;
+Shop copyWith({  String? id,
+  bool? isActive,
+  String? createdAt,
+  String? name,
+  String? description,
+  String? shopemail,
+  String? shopaddress,
+  String? shopcity,
+  String? userid,
+  String? image,
+}) => Shop(  id: id ?? _id,
+  isActive: isActive ?? _isActive,
+  createdAt: createdAt ?? _createdAt,
+  name: name ?? _name,
+  description: description ?? _description,
+  shopemail: shopemail ?? _shopemail,
+  shopaddress: shopaddress ?? _shopaddress,
+  shopcity: shopcity ?? _shopcity,
+  userid: userid ?? _userid,
+  image: image ?? _image,
 );
-  String? get carPicture => _carPicture;
-  String? get driverPicture => _driverPicture;
+  String? get id => _id;
+  bool? get isActive => _isActive;
+  String? get createdAt => _createdAt;
+  String? get name => _name;
+  String? get description => _description;
+  String? get shopemail => _shopemail;
+  String? get shopaddress => _shopaddress;
+  String? get shopcity => _shopcity;
+  String? get userid => _userid;
+  String? get image => _image;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
-    map['carPicture'] = _carPicture;
-    map['driverPicture'] = _driverPicture;
+    map['_id'] = _id;
+    map['is_active'] = _isActive;
+    map['created_At'] = _createdAt;
+    map['name'] = _name;
+    map['description'] = _description;
+    map['shopemail'] = _shopemail;
+    map['shopaddress'] = _shopaddress;
+    map['shopcity'] = _shopcity;
+    map['userid'] = _userid;
+    map['image'] = _image;
     return map;
   }
 
 }
 
-/// carPicture : "\"https://example.com/car1\""
-/// driverPicture : "\"https://example.com/driver1\""
+/// _id : "asdf231asdfadsfsad2438rjsd"
+/// type : "Women"
+/// sale_percent : 20
+/// date : "2023-01-05T07: 56: 19.219Z"
+/// name : "Shirts"
 
-class Photos {
-  Photos({
-      String? carPicture, 
-      String? driverPicture,}){
-    _carPicture = carPicture;
-    _driverPicture = driverPicture;
+class Subcat {
+  Subcat({
+      String? id, 
+      String? type, 
+      num? salePercent, 
+      String? date, 
+      String? name,}){
+    _id = id;
+    _type = type;
+    _salePercent = salePercent;
+    _date = date;
+    _name = name;
 }
 
-  Photos.fromJson(dynamic json) {
-    _carPicture = json['carPicture'];
-    _driverPicture = json['driverPicture'];
+  Subcat.fromJson(dynamic json) {
+    _id = json['_id'];
+    _type = json['type'];
+    _salePercent = json['sale_percent'];
+    _date = json['date'];
+    _name = json['name'];
   }
-  String? _carPicture;
-  String? _driverPicture;
-Photos copyWith({  String? carPicture,
-  String? driverPicture,
-}) => Photos(  carPicture: carPicture ?? _carPicture,
-  driverPicture: driverPicture ?? _driverPicture,
+  String? _id;
+  String? _type;
+  num? _salePercent;
+  String? _date;
+  String? _name;
+Subcat copyWith({  String? id,
+  String? type,
+  num? salePercent,
+  String? date,
+  String? name,
+}) => Subcat(  id: id ?? _id,
+  type: type ?? _type,
+  salePercent: salePercent ?? _salePercent,
+  date: date ?? _date,
+  name: name ?? _name,
 );
-  String? get carPicture => _carPicture;
-  String? get driverPicture => _driverPicture;
+  String? get id => _id;
+  String? get type => _type;
+  num? get salePercent => _salePercent;
+  String? get date => _date;
+  String? get name => _name;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
-    map['carPicture'] = _carPicture;
-    map['driverPicture'] = _driverPicture;
+    map['_id'] = _id;
+    map['type'] = _type;
+    map['sale_percent'] = _salePercent;
+    map['date'] = _date;
+    map['name'] = _name;
     return map;
   }
 
 }
 
-/// universityID : 102
-/// tuitionFee : 60000
+/// _id : "asdf231asdfadsfsad2438rjsd"
+/// type : "Women"
+/// sale_percent : 20
+/// date : "2023-01-05T07: 56: 19.219Z"
+/// name : "clothes"
+/// image : "https: //images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"
 
-class HigherEducation {
-  HigherEducation({
-      num? universityID, 
-      num? tuitionFee,}){
-    _universityID = universityID;
-    _tuitionFee = tuitionFee;
+class Categories {
+  Categories({
+      String? id, 
+      String? type, 
+      num? salePercent, 
+      String? date, 
+      String? name, 
+      String? image,}){
+    _id = id;
+    _type = type;
+    _salePercent = salePercent;
+    _date = date;
+    _name = name;
+    _image = image;
 }
 
-  HigherEducation.fromJson(dynamic json) {
-    _universityID = json['universityID'];
-    _tuitionFee = json['tuitionFee'];
+  Categories.fromJson(dynamic json) {
+    _id = json['_id'];
+    _type = json['type'];
+    _salePercent = json['sale_percent'];
+    _date = json['date'];
+    _name = json['name'];
+    _image = json['image'];
   }
-  num? _universityID;
-  num? _tuitionFee;
-HigherEducation copyWith({  num? universityID,
-  num? tuitionFee,
-}) => HigherEducation(  universityID: universityID ?? _universityID,
-  tuitionFee: tuitionFee ?? _tuitionFee,
+  String? _id;
+  String? _type;
+  num? _salePercent;
+  String? _date;
+  String? _name;
+  String? _image;
+Categories copyWith({  String? id,
+  String? type,
+  num? salePercent,
+  String? date,
+  String? name,
+  String? image,
+}) => Categories(  id: id ?? _id,
+  type: type ?? _type,
+  salePercent: salePercent ?? _salePercent,
+  date: date ?? _date,
+  name: name ?? _name,
+  image: image ?? _image,
 );
-  num? get universityID => _universityID;
-  num? get tuitionFee => _tuitionFee;
+  String? get id => _id;
+  String? get type => _type;
+  num? get salePercent => _salePercent;
+  String? get date => _date;
+  String? get name => _name;
+  String? get image => _image;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
-    map['universityID'] = _universityID;
-    map['tuitionFee'] = _tuitionFee;
-    return map;
-  }
-
-}
-
-/// schoolID : 101
-/// waiverAmount : 55000
-
-class Education {
-  Education({
-      num? schoolID, 
-      num? waiverAmount,}){
-    _schoolID = schoolID;
-    _waiverAmount = waiverAmount;
-}
-
-  Education.fromJson(dynamic json) {
-    _schoolID = json['schoolID'];
-    _waiverAmount = json['waiverAmount'];
-  }
-  num? _schoolID;
-  num? _waiverAmount;
-Education copyWith({  num? schoolID,
-  num? waiverAmount,
-}) => Education(  schoolID: schoolID ?? _schoolID,
-  waiverAmount: waiverAmount ?? _waiverAmount,
-);
-  num? get schoolID => _schoolID;
-  num? get waiverAmount => _waiverAmount;
-
-  Map<String, dynamic> toJson() {
-    final map = <String, dynamic>{};
-    map['schoolID'] = _schoolID;
-    map['waiverAmount'] = _waiverAmount;
+    map['_id'] = _id;
+    map['type'] = _type;
+    map['sale_percent'] = _salePercent;
+    map['date'] = _date;
+    map['name'] = _name;
+    map['image'] = _image;
     return map;
   }
 
